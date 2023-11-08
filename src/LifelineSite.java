@@ -4,7 +4,7 @@ public class LifelineSite extends Site {
     }
     @Override
     public double getBaseAmount() {
-        return _units * _rate * 0.5;
+        return units * rate * 0.5;
     }
 
     @Override

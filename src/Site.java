@@ -1,12 +1,12 @@
 public abstract class Site {
     public static final double TAX_RATE = 0.10;
 
-    protected int _units;
-    protected double _rate;
+    protected int units;
+    protected double rate;
 
     public Site(int units, double rate) {
-        _units = units;
-        _rate = rate;
+        this.units = units;
+        this.rate = rate;
     }
 
     public double getBillableAmount() {

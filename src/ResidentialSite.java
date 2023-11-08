@@ -4,7 +4,7 @@ public class ResidentialSite extends Site {
     }
     @Override
     public double getBaseAmount() {
-        return _units * _rate;
+        return units * rate;
     }
 
     @Override
