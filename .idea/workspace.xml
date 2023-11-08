@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d389612c-edfa-421d-b868-a414c71a1845" name="Changes" comment="Initial (refactoring not started) version of the Form Template Method example by Martin Fowler.">
+    <list default="true" id="d389612c-edfa-421d-b868-a414c71a1845" name="Changes" comment="Checked out to new Refactoring Branch.&#10;&#10;Added new abstract methods getBaseAmount() and getTaxAmount() in Site class (made Site an abstract class) and subclasses (using override). Haven't changed any other code.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LifelineSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LifelineSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ResidentialSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResidentialSite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Site.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Site.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -52,11 +61,19 @@
       <option name="project" value="LOCAL" />
       <updated>1699474539780</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Checked out to new Refactoring Branch.&#10;&#10;Added new abstract methods getBaseAmount() and getTaxAmount() in Site class (made Site an abstract class) and subclasses (using override). Haven't changed any other code.">
+      <created>1699474739328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699474739328</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial (refactoring not started) version of the Form Template Method example by Martin Fowler." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial (refactoring not started) version of the Form Template Method example by Martin Fowler." />
+    <MESSAGE value="Checked out to new Refactoring Branch.&#10;&#10;Added new abstract methods getBaseAmount() and getTaxAmount() in Site class (made Site an abstract class) and subclasses (using override). Haven't changed any other code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Checked out to new Refactoring Branch.&#10;&#10;Added new abstract methods getBaseAmount() and getTaxAmount() in Site class (made Site an abstract class) and subclasses (using override). Haven't changed any other code." />
   </component>
 </project>
